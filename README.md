@@ -4,7 +4,7 @@ A Terraform module for EC2 to create a key pair automatically
 
 ## How to use
 
-This code below will create an EC2 instance with a key file in `certs/` folder
+This code below will create an EC2 instance with a key file in `certs/ec2-with-key-pair/` folder
 
 ```terraform
 module "ec2-with-key-pair" {
